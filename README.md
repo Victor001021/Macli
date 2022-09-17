@@ -1,4 +1,4 @@
-#Macli Weather App
+# Macli Weather App
 
 Macli é um app feito para dispositivos Android utilizando a linguagem de programação <b>JAVA</b> e consumindo API da <b>OpenWeatherMap</b>
 
