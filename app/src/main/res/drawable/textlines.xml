@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/myrect.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <item android:bottom="1.6dp" android:right="1.6dp">
+                <shape>
+                    <gradient android:angle="270"
+                        android:endColor="#B3357AA1" android:startColor="#CC357AA1" />
+                    <!--android:endColor="#3B7CA1" android:startColor="#3B7CA1"-->
+
+                    <corners android:radius="5dp" />
+                    <padding android:bottom="10dp" android:left="10dp"
+                        android:right="10dp" android:top="10dp" />
+                </shape>
+            </item>
+
+
+</selector>
+
