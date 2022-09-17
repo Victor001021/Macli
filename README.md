@@ -1,6 +1,6 @@
 # Macli Weather App
 
-Macli é um app feito para dispositivos Android utilizando a linguagem de programação <b>JAVA</b> e consumindo API da <b>OpenWeatherMap</b>
+Macli é um app feito para dispositivos Android utilizando a linguagem de programação <b>JAVA</b> e consumindo API da <b>OpenWeatherMap</b>.
 
 <div>
 <img src="https://lh3.googleusercontent.com/zoFOwc8vgtr-rEpvhm8mb4YjLKowWV-V_VnWjb-ZnaB1zityH1RfQPLPTuytaecTSEdoUmlcnW181Qk4vW6O27pmePcpJfUcqMUKgbcOw1QbcyoH5Nb9LEn147Lz_c_K_Oi3i0WbTL60GQGbYIl3fdQi6q4to3riWPWtiMxTObCO-59D59ZKbPFCuG9SzDZ2iVNXw09Bx5Ht-Hjr9K7HqMk_g-h5tNdJAaMHDFAXTFPqiFTsWJ27i7TFqTJuKIz-WjK3hUDT04FxjzyWb0BlnlBRYHGcvm4Oq3QDDuDPmKk3Qj3khNWpm4cc_SH0E7MQYbmI9_jNADE-355s6Xo5S29cjI_oQqiogJYNmV6iBR3zVxSc62QQ3GuHJOhpTCiRPBm6xVDjMb-Hi7dJqlAjX9Bh2hce8nJ43nT_b7Z-5FCQSXeS_N6JdwcJKnjg_foxW2TKG3rbw7SVi9KOjGUZ-dlMI0mwOZdXuNDvth7w8vETrqV8ISSuhIJF_aDT8JYMKpKFEBLsTsKzTOP8BqCwesbXcZwjSzXWWgnHc3P-jfHyrFBav2jH1uwe21CCuiKPST_XLL1jfeoKC0V9P0RYKkCGw8aBizBNKi6dH9Br7-wI9ZVcXg-dMrjycDQ0Kgpq-7C9PAGzPUOH-5PQILRIVuWugsos2Tdj28yJmYam0fcp44mC-Wtzg3lw3s98pTwZX2yVCuQZJ5ACLVasRFcUIZ9bKgk65BVRZI3f-XtedFzBeR9ucJLqDJwhRBmSKNmYMcthu_urQvQtL5mzp2hrTZABSK64UV0MPzQ=w308-h649-no?authuser=0"/>
