@@ -12,6 +12,6 @@
 
 <div align="center">
   <a href="https://play.google.com/store/apps/details?id=com.vitor.alcan.appclima">
-    <img src="google-play-badge (1).png"/>
+    <img src="images/google-play-badge (1).png"/>
   </a>
 </div>
