@@ -1,7 +1,12 @@
+<div align="center">
+  
 # Macli Weather App
-
-<i>Macli é um app feito para dispositivos Android utilizando a linguagem de programação <b>JAVA</b> e consumindo API da <b>OpenWeatherMap</b>.</i>
-
+  
+</div>
+<div align="center">
+  <i>Macli é um app feito para dispositivos Android utilizando a linguagem de programação <b>JAVA</b> e consumindo API da <b>OpenWeatherMap</b>.</i>
+</div>
+<br/>
 <div style="display:inline_block;" align="center">
   <img width="30%" src="https://github.com/Victor001021/Macli/raw/main/images/Screenshot_20220917-134025.jpg"/>
   <img width="30%" src="https://github.com/Victor001021/Macli/raw/main/images/Screenshot_20220917-134033.jpg"/>
