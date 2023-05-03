@@ -10,6 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.bumptech.glide.Glide;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
@@ -82,9 +83,19 @@ public class DiasAdapter extends RecyclerView.Adapter<DiasAdapter.ViewHolder3> {
         holder.tvTemp_dia_hora.setText(dadosClimaDias.getTempMax() + "° / " + dadosClimaDias.getTempMin() + "°");
         String icone = dadosClimaDias.getIcone();
 
-        Picasso.with(context)
+      /*  Picasso.with(context)
                 .load("https://openweathermap.org/img/wn/" +icone+ "@4x.png")
+                .into(holder.iv_dia_hora);*/
+
+        Glide.with(context)
+                .load("http://openweathermap.org/img/wn/" +icone+ "@4x.png")
                 .into(holder.iv_dia_hora);
+
+       /* Picasso.get()
+                .load("https://openweathermap.org/img/wn/" +icone+ "@4x.png")
+                .into(holder.iv_dia_hora);*/
+
+        Picasso.get().setLoggingEnabled(true);
 
     }
 

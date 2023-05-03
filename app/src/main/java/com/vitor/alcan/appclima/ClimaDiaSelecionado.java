@@ -151,8 +151,11 @@ public class ClimaDiaSelecionado extends AppCompatActivity {
     private void inserirDados(){
         tvDiaSelecionado.setText(dadosClimaDiasArrayList.get(i).getDia());
         //getSupportActionBar().setTitle(dadosClimaDiasArrayList.get(i).getDia());
-        Picasso.with(getApplicationContext())
+        /*Picasso.with(getApplicationContext())
                 .load("https://openweathermap.org/img/wn/" + dadosClimaDiasArrayList.get(i).getIcone() + "@4x.png")
+                .into(ivIconeDiaSelecionado);*/
+        Picasso.get()
+                .load("http://openweathermap.org/img/wn/" + dadosClimaDiasArrayList.get(i).getIcone() + "@4x.png")
                 .into(ivIconeDiaSelecionado);
 
         tvDescricaoDiaSelecionado.setText(dadosClimaDiasArrayList.get(i).getDescricao().substring(0,1).toUpperCase() + dadosClimaDiasArrayList.get(i).getDescricao().substring(1));

@@ -451,8 +451,7 @@ public class Clima extends AppCompatActivity{
                         String description = jsonObjectWeather.getString("description");
 
                         String icon = jsonObjectWeather.getString("icon");
-                        Picasso.with(getApplicationContext())
-                                .load("https://openweathermap.org/img/wn/" + icon + "@4x.png")
+                        Picasso.get().load("http://openweathermap.org/img/wn/" + icon + "@4x.png")
                                 .into(ivIcone);
 
                         JSONObject jsonObjectMain = jsonResponse.getJSONObject("main");

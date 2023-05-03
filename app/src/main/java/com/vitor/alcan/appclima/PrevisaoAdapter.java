@@ -44,6 +44,7 @@ public class PrevisaoAdapter extends RecyclerView.Adapter<PrevisaoAdapter.ViewHo
 
     @Override
     public void onBindViewHolder(@NonNull PrevisaoAdapter.ViewHolder holder, int position) {
+
         DadosClima dadosClima = dadosClimaArrayList.get(position);
         holder.tvDescricao.setText(dadosClima.getDescricao());
         holder.tvTemp.setText(dadosClima.getTemp());
@@ -51,8 +52,12 @@ public class PrevisaoAdapter extends RecyclerView.Adapter<PrevisaoAdapter.ViewHo
 
         String icone = dadosClima.getIcone();
 
-        Picasso.with(context)
+        /*Picasso.with(context)
                 .load("https://openweathermap.org/img/wn/" +icone+ "@4x.png")
+                .into(holder.ivIcon);*/
+
+        Picasso.get()
+                .load("http://openweathermap.org/img/wn/" +icone+ "@4x.png")
                 .into(holder.ivIcon);
 
         /*

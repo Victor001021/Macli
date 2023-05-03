@@ -47,8 +47,12 @@ public class HoraAdapter extends RecyclerView.Adapter<HoraAdapter.ViewHolder2> {
         holder.tvTemp_dia_hora.setText(dadosHora.getTemp() + " °C");
         String icone = dadosHora.getIcone();
 
-        Picasso.with(context)
+     /*   Picasso.with(context)
                 .load("https://openweathermap.org/img/wn/" +icone+ "@4x.png")
+                .into(holder.iv_dia_hora);*/
+
+        Picasso.get()
+                .load("http://openweathermap.org/img/wn/" +icone+ "@4x.png")
                 .into(holder.iv_dia_hora);
 
 

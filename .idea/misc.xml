@@ -3,10 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/vitor/AndroidStudioProjects/Appclima/app/src/main/res/drawable/blurbg.xml" value="0.2075" />
         <entry key="..\:/Users/vitor/AndroidStudioProjects/Appclima/app/src/main/res/layout/action_bar_clima.xml" value="0.1" />
         <entry key="..\:/Users/vitor/AndroidStudioProjects/Appclima/app/src/main/res/layout/action_bar_pesquisa.xml" value="0.5" />
         <entry key="..\:/Users/vitor/AndroidStudioProjects/Appclima/app/src/main/res/layout/activity_clima.xml" value="0.2" />
         <entry key="..\:/Users/vitor/AndroidStudioProjects/Appclima/app/src/main/res/layout/activity_clima_dia_selecionado.xml" value="0.2" />
+        <entry key="..\:/Users/vitor/AndroidStudioProjects/Appclima/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/vitor/AndroidStudioProjects/Appclima/app/src/main/res/layout/activity_previsao_hora.xml" value="0.2" />
         <entry key="..\:/Users/vitor/AndroidStudioProjects/Appclima/app/src/main/res/layout/recyclerview_cidades.xml" value="0.2" />
         <entry key="..\:/Users/vitor/AndroidStudioProjects/Appclima/app/src/main/res/layout/recyclerview_dia_hora.xml" value="0.33" />

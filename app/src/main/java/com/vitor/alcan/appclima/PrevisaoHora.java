@@ -169,9 +169,14 @@ public class PrevisaoHora extends AppCompatActivity {
 
 
 
-            Picasso.with(getApplicationContext())
+            /*Picasso.with(getApplicationContext())
                     .load("https://openweathermap.org/img/wn/" + dadosHoraArrayList.get(i).getIcone() + "@4x.png")
-                    .into(ivIconeHora);
+                    .into(ivIconeHora);*/
+
+        Picasso.get()
+                .load("http://openweathermap.org/img/wn/" + dadosHoraArrayList.get(i).getIcone() + "@4x.png")
+                .into(ivIconeHora);
+
             tvDescricaoHora.setText(dadosHoraArrayList.get(i).getDescricao().substring(0,1).toUpperCase() + dadosHoraArrayList.get(i).getDescricao().substring(1));
             tvTempHora.setText(dadosHoraArrayList.get(i).getTemp() + " °C");
             tvPopChuvaHora.setText(dadosHoraArrayList.get(i).getProp() + " %");
